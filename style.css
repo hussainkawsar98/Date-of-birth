@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Monotype Corsiva';
+    src: url("MTCORSVA.TTF") format("ttf"), url("MTCORSVA.TTF")
+        format("ttf");
+  }
+#main-body {
+    background-color: #f1f1f1;
+    width: 793.248px;
+    height: 1122.528px;
+    padding: 60px 45px;
+}
+/* English Style */
+.eng-font {
+    font-family: 'Monotype Corsiva';
+    font-weight: bold;
+    font-style: italic;
+}
+.eng-font.content-body p {
+    font-weight: 600;
+    margin-bottom: -5px;
+}
+.eng-font.content-body h4 {
+    font-weight: 900;
+    font-size: 25px;
+    margin-bottom: -5px;
+}
+.eng-font .signature-group .signature-single p.s1 {
+    padding-left: 155px;
+}
+.eng-font .signature-group .signature-single p.s2 {
+    padding-left: 60px;
+}
+
+
+/* Bangla Style */
+.bng-font {
+    font-family: 'Monotype Corsiva';
+    font-weight: bold;
+}
+.bng-font.content-body p {
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.bng-font.content-body h4 {
+    font-weight: 900;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+.bng-font .signature-group .signature-single p.s1 {
+    padding-left: 165px;
+}
+.bng-font .signature-group .signature-single p.s2 {
+    padding-left: 99px;
+}
+.bng-font .data-table table .position-relative > p.position-absolute.right {
+    right: 5px!important;
+}
+.bng-font .parent-details {
+    margin-bottom: 120px;
+}
+
+
+
+#main-body h3 {
+    font-weight: 900;
+}
+.body-border1 {
+    border: 2px solid #000000;
+    padding: 10px;
+}
+.body-border2 {
+    border: 2px solid #000000;
+    padding: 10px;
+}
+.content-body {
+    background: #ffffff url("BirthCertifcate.jpg") no-repeat left top;
+    background-size: cover;
+}
+.content-body p {
+    font-size: 18px;
+    margin-bottom: -5px;
+}
+.content-body .p {
+    margin-bottom: -10px;
+}
+.hearder-address .position-absolute {
+    position: absolute!important;
+    right: 1px;
+    top: 2px;
+}
+.data-table .info-table {
+    width: 100%;
+}
+.data-table .td-width {
+    width: 160px;
+}
+.birth-SL-no tr td {
+    border: 1px solid #000000;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.data-table table td > p {
+    margin-bottom: 5px;
+}
+.data-table table .position-relative > p.position-absolute.right {
+    right: 10px!important;
+}
+.data-table table .position-relative > p.position-absolute.left {
+    left: 340px;
+    top: 1px;
+}
+.birth-SL-date tr td {
+    border: 1px solid #000000;
+    width: 22px;
+    height: 32px;
+    text-align: center;
+}
+.birth-SL-date tr td:nth-child(3) {
+    background-color: #000000;
+}
+.birth-SL-date tr td:nth-child(6) {
+    background-color: #000000;
+}
+.parent-details p {
+    margin-bottom: -5px;
+}
+/* parent-details */
+.parent-details {
+    border: 1px solid #000000;
+    padding: 5px;
+    margin-bottom: 135px;
+}
+.signature-group {
+    padding-bottom: 15px;
+}
+.signature-single {
+    width: 45%;
+}
+.signature-group.top {
+    justify-content: space-around;
+}
+
+
+
+
+/* Form Style */
+.dateOfBirth-form {
+    box-shadow: 0 6px 20px #ced4da;
+    border-radius: 10px;
+}
+.custom-width {
+    width: 100px!important;
+}
